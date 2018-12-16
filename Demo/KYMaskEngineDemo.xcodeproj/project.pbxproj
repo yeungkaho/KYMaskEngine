@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A21D55C21C679F300CB3388 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21D55B21C679F300CB3388 /* AppDelegate.m */; };
+		3A21D55F21C679F300CB3388 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21D55E21C679F300CB3388 /* ViewController.m */; };
+		3A21D56421C679F400CB3388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A21D56321C679F400CB3388 /* Assets.xcassets */; };
+		3A21D56A21C679F400CB3388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21D56921C679F400CB3388 /* main.m */; };
+		3A21D57321C67A3C00CB3388 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A21D57221C67A3C00CB3388 /* OpenGLES.framework */; };
+		3A21D62D21C67FBA00CB3388 /* KYMaskEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21D62C21C67FBA00CB3388 /* KYMaskEngine.m */; };
+		BA08BDE408328F0E45F4AF8E /* libPods-KYMaskEngineDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6E518413A268E3CE172EC0 /* libPods-KYMaskEngineDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24821545BCF8EF725E0FB53E /* Pods-KYMaskEngineDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYMaskEngineDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYMaskEngineDemo/Pods-KYMaskEngineDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3A21D55721C679F300CB3388 /* KYMaskEngineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYMaskEngineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21D55A21C679F300CB3388 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A21D55B21C679F300CB3388 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A21D55D21C679F300CB3388 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A21D55E21C679F300CB3388 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A21D56321C679F400CB3388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A21D56821C679F400CB3388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A21D56921C679F400CB3388 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A21D57221C67A3C00CB3388 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3A21D62B21C67FBA00CB3388 /* KYMaskEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYMaskEngine.h; sourceTree = "<group>"; };
+		3A21D62C21C67FBA00CB3388 /* KYMaskEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYMaskEngine.m; sourceTree = "<group>"; };
+		94020B55A74221B91DCF914A /* Pods-KYMaskEngineDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYMaskEngineDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYMaskEngineDemo/Pods-KYMaskEngineDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BA6E518413A268E3CE172EC0 /* libPods-KYMaskEngineDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KYMaskEngineDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A21D55421C679F300CB3388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21D57321C67A3C00CB3388 /* OpenGLES.framework in Frameworks */,
+				BA08BDE408328F0E45F4AF8E /* libPods-KYMaskEngineDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A21D54E21C679F300CB3388 = {
+			isa = PBXGroup;
+			children = (
+				3A21D55921C679F300CB3388 /* KYMaskEngineDemo */,
+				3A21D55821C679F300CB3388 /* Products */,
+				3A21D57121C67A3C00CB3388 /* Frameworks */,
+				B51E22CCB7676AC4F5BE564F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		3A21D55821C679F300CB3388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A21D55721C679F300CB3388 /* KYMaskEngineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A21D55921C679F300CB3388 /* KYMaskEngineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3A21D62A21C67FBA00CB3388 /* KYMaskEngine */,
+				3A21D55A21C679F300CB3388 /* AppDelegate.h */,
+				3A21D55B21C679F300CB3388 /* AppDelegate.m */,
+				3A21D55D21C679F300CB3388 /* ViewController.h */,
+				3A21D55E21C679F300CB3388 /* ViewController.m */,
+				3A21D56321C679F400CB3388 /* Assets.xcassets */,
+				3A21D56821C679F400CB3388 /* Info.plist */,
+				3A21D56921C679F400CB3388 /* main.m */,
+			);
+			path = KYMaskEngineDemo;
+			sourceTree = "<group>";
+		};
+		3A21D57121C67A3C00CB3388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A21D57221C67A3C00CB3388 /* OpenGLES.framework */,
+				BA6E518413A268E3CE172EC0 /* libPods-KYMaskEngineDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A21D62A21C67FBA00CB3388 /* KYMaskEngine */ = {
+			isa = PBXGroup;
+			children = (
+				3A21D62B21C67FBA00CB3388 /* KYMaskEngine.h */,
+				3A21D62C21C67FBA00CB3388 /* KYMaskEngine.m */,
+			);
+			name = KYMaskEngine;
+			path = ../../KYMaskEngine;
+			sourceTree = "<group>";
+		};
+		B51E22CCB7676AC4F5BE564F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24821545BCF8EF725E0FB53E /* Pods-KYMaskEngineDemo.debug.xcconfig */,
+				94020B55A74221B91DCF914A /* Pods-KYMaskEngineDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A21D55621C679F300CB3388 /* KYMaskEngineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A21D56D21C679F400CB3388 /* Build configuration list for PBXNativeTarget "KYMaskEngineDemo" */;
+			buildPhases = (
+				EC39695ADA49FCFC6F57E0A1 /* [CP] Check Pods Manifest.lock */,
+				3A21D55321C679F300CB3388 /* Sources */,
+				3A21D55421C679F300CB3388 /* Frameworks */,
+				3A21D55521C679F300CB3388 /* Resources */,
+				15E127A8D6C50491FDBCE1A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYMaskEngineDemo;
+			productName = KYMaskEngineDemo;
+			productReference = 3A21D55721C679F300CB3388 /* KYMaskEngineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A21D54F21C679F300CB3388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Yeung;
+				TargetAttributes = {
+					3A21D55621C679F300CB3388 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A21D55221C679F300CB3388 /* Build configuration list for PBXProject "KYMaskEngineDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A21D54E21C679F300CB3388;
+			productRefGroup = 3A21D55821C679F300CB3388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A21D55621C679F300CB3388 /* KYMaskEngineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A21D55521C679F300CB3388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21D56421C679F400CB3388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E127A8D6C50491FDBCE1A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KYMaskEngineDemo/Pods-KYMaskEngineDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYMaskEngineDemo/Pods-KYMaskEngineDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC39695ADA49FCFC6F57E0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYMaskEngineDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A21D55321C679F300CB3388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21D55F21C679F300CB3388 /* ViewController.m in Sources */,
+				3A21D56A21C679F400CB3388 /* main.m in Sources */,
+				3A21D55C21C679F300CB3388 /* AppDelegate.m in Sources */,
+				3A21D62D21C67FBA00CB3388 /* KYMaskEngine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A21D56B21C679F400CB3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A21D56C21C679F400CB3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A21D56E21C679F400CB3388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24821545BCF8EF725E0FB53E /* Pods-KYMaskEngineDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EMZNHNQJ95;
+				INFOPLIST_FILE = KYMaskEngineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Release-iphone/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykh.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A21D56F21C679F400CB3388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94020B55A74221B91DCF914A /* Pods-KYMaskEngineDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EMZNHNQJ95;
+				INFOPLIST_FILE = KYMaskEngineDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Release-iphone/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykh.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A21D55221C679F300CB3388 /* Build configuration list for PBXProject "KYMaskEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A21D56B21C679F400CB3388 /* Debug */,
+				3A21D56C21C679F400CB3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A21D56D21C679F400CB3388 /* Build configuration list for PBXNativeTarget "KYMaskEngineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A21D56E21C679F400CB3388 /* Debug */,
+				3A21D56F21C679F400CB3388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A21D54F21C679F300CB3388 /* Project object */;
+}
